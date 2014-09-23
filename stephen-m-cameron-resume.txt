@@ -1,0 +1,168 @@
+Stephen Michael Cameron
+8415 Rockford Hall Drive
+Spring TX, 77069
+
+stephenmcameron@gmail.com
+(281) 736-8760 (mobile)
+
+Education: Bachelor of Science in Computer Science - December, 1991
+Texas A & M University, College Station, TX
+Minor in Electrical Engineering
+
+Github: https://github.com/smcameron
+
+Work Experience:
+
+April 1997 - September 2014 (17 years): Hewlett Packard (originally
+Compaq Computer Corporation) Houston, TX -- Senior Systems Software
+Engineer
+
+Since about 2002, I have worked on the linux storage drivers for HP's
+Smart Array line of RAID controllers, first the "cciss" driver for which
+I added support for SCSI tape drives, and later the current "hpsa"
+driver. I am the primary author of the hpsa driver. I also worked on a
+SCSI-over-PCIE driver for about a year in collaboration with SanDisk
+which I presented at the 2013 Linux Storage Filesystem and Memory
+Management Summit. (See: https://github.com/HPSmartStorage/scsi-over-pcie )
+
+Most recently I have been working on enhancements to the hpsa driver to
+use the new SCSI multiqueue enhancements and remove all the locks from
+the main i/o path to enable performance of nearly 1 million IOPS on a
+single controller to a single logical drive. I have been invited to the
+Linux Storage Filesystem and Memory Management Summit for the last two
+years (2013, 2014). Some of my linux kernel commits may be found here:
+https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=scameron
+
+Additionally I worked on various Smart Array related storage utilities
+such as SNMP agents, array configuration utilities, smartmontools, and
+various other small utility programs.
+
+In 2000, I worked on a driver for Smart Array RAID controllers for about
+a year for IBM's and SCO's Project Monterey, which was a unix derivative
+of SCO Unixware and IBM's AIX that was supposed to run on IBM POWER,
+PowerPC, IA64 and IA32 processors. Project Monterey didn't really go
+anywhere though, as linux kind of came along and ate its lunch.
+
+From April 1997 to September 1998, I was responsible for supporting SCO
+Openserver on Compaq's "SmartStart" CD. The SmartStart CD contained a
+number of system specific drivers, most importantly storage drivers, and
+a modified version of SCO's install media to enable injecting those
+drivers during the install process.
+
+During that time (1997-1998) I was also the system administrator for one
+of Compaq's source code servers, which contained all the source for the
+drivers and utilities that made up Compaq's drivers and software for SCO
+Openserver, Unixware 2, and Unixware 7. That entailed the usual backups,
+user administration, etc. Also, I set up and initiated the CVS source
+code control system then in use. Prior to my arrival they were using
+just RCS.
+
+I also automated the build process, and incidentally this was how I got
+into driver development. Floppy diskette images needed to be created and
+Unixware lacked any block loop device, so I wrote a driver for one to
+avoid the time consuming and medium-error prone use of actual floppy
+diskettes.
+
+July 1992 - April 1997 (5 years): McDonnell Douglas Corporation (now
+Boeing) 16055 Space Center Blvd, Houston TX, 77062-6208 -- Unix Systems
+Administrator/Programmer
+
+Since April 1995 I was the primary system administrator for a network of
+approximately 60 Sun workstations (Sparc 5s, Sparc 20s, an Enterprise
+3000 and an Enterprise 5000) running SunOS 4.x or Solaris 2.x and 3
+HP-9000s running HP-UX 9.x. My responsibilities included hardware
+installation, OS installation, software installation, licensing and
+configuration management, backups, user account administration, network
+administration, and general troubleshooting to name a few. Probably the
+most impressive thing I did in the Sys Admin vein was a very elaborate
+NIS/amd automounter setup. Seeing as how this was 1995, and mostly
+SunOS/Solaris, you might say I was a "classically trained sysadmin".
+
+Prior to taking on system administration duties I worked as an
+Ada/C/X/Motif/SQL programmer and my responsibilities included design,
+implementation, testing and documentation of an Ada interface to an
+Oracle database and VMS file system and various programs which used the
+interface. In a related project, I was responsible for porting a portion
+of a real-time simulation control program written in Ada from a VAX ELN
+environment to a DEC Alpha/OSF/1 (later Compaq Alpha/Tru64 Unix)
+environment. This involved writing Ada interfaces to many Unix system
+calls such as those dealing with semaphores, message queues, and signals
+to name a few.
+
+May 1989 - Jan 1992 (during summers and Christmas break from school)
+Advanced Computing Solutions, Inc. (ACSI, later RealData, probably no
+longer exists.) Houston, TX Data Systems Engineer
+
+My responsibilities included design, coding, and testing of various
+programs and components of ACSI's (pre-WWW) on-line real estate
+information service (Oracle based), including programs to estimate
+adjustments to real estate property values, programs to efficiently
+search large volumes of data (for instance, all the property tax records
+for Harris County TX, numbered in the millions (remember, this is circa
+1989 when "millions" was a big number) and generate reports in ASCII,
+PostScript, and troff formats. In addition I worked on ACSI's Commercial
+Multiple Listings Service (CMLS) and the billing system for the CMLS. I
+also worked on the redesign and conversion of a nationwide security
+alarm monitoring system from COBOL to C. This involved writing several
+cooperating C programs which communicated with each other in nearly
+every way possible, via sockets, shared memory, semaphores, message
+queues and FIFOs. All that work was done on a combination of HW, Suns,
+Data Generals, Masscomps and some AT&T 386 boxes running some beta
+release of SVR4. Languages/Software used included C, Pro*C, Bourne
+shell, C shell, SQL*plus, SQL*report, SQL*Forms (version 2.0 --gasp!)
+awk, and troff. This work was all done during summer and Christmas
+breaks between semesters while attending Texas A & M. (total: 14.5
+months)
+
+Jan 1987 - Jan 1989 Mitre Corp. Nassau Bay, TX -- Technical Aide
+
+My responsibilities at Mitre included adding a sophisticated (for its
+time) user interface to a queueing analysis program written in Turbo
+Pascal on a DOS machine. The interface included pull-down menus, windows
+and a spreadsheet-like data entry module. I also extended the analysis
+portion of the program by adding two new types of queues. I was also
+responsible for conversion of a Space Station requirements database
+prototype from DBase III to Oracle. This involved teaching myself to be
+my own Oracle DBA, teaching myself C, and integrating the emacs editor
+into my application. I also created a C program (the 2nd I ever wrote,
+after "hello, world!" of course) to read raw DBase III files and produce
+output in a form importable by Oracle (SQL "insert" statements and
+SQL\*plus "create table" statements) This work was done during summer
+and Christmas breaks between semesters while attending Texas A & M.
+
+Other Interests:
+
+I founded and currently run the Houston Recreational Computer
+Programming meetup, and am a co-organizer of the Houston Game Developers
+Show and Tell meetup.
+http://www.meetup.com/Houston-Recreational-Computer-Programming-Group/
+http://www.meetup.com/Houston-Game-Devs-Show-and-Tell/
+
+I've been an active member of Houston's hackerspace, TX/RX Labs since
+2010. See: http://txrxlabs.org Occasionally I teach a 2-day "Intro to C
+programming" course and a 2-day "Intro to Linux Device Driver programming"
+course there.
+
+I'm also currently working on an open source (GPL) multiplayer networked
+3D starship bridge simulator called "Space Nerds In Space" in my spare
+time.  http://smcameron.github.io/space-nerds-in-space/
+
+I built a cyclekart, which is a little car that's part way between a
+go-kart and and an art project.\
+In progress: https://www.youtube.com/watch?v=7ocrvACdmN8
+Finished: http://imgur.com/a/dY7PB\#0
+
+In 2007 or so, I wrote a video game similar to the old arcade game
+Defender with a "vi vs. Emacs" theme, and later helped modify it to run
+on a home-made openlase driven RGB laser projector.
+http://smcameron.github.io/wordwarvi/ 
+The music, sound effects and voiceover work is substantially my doing as
+well.
+
+I recently presented a technique I came up with for generating somewhat
+realistic looking gas giant planet graphics which looks better than
+anything else I've seen out there (better than what's in Elite:
+Dangerous, for example) http://smcameron.github.io/space-nerds-in-space/gaseous-giganticus-slides/slideshow.html
+
+References available upon request.
+
